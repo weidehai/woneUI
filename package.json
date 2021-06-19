@@ -1,13 +1,13 @@
 {
   "name": "woneui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "some ui components",
-  "main": "dist/.js",
+  "main": "dist/woneUI.js",
   "scripts": {
     "test": "jest",
     "build": "webpack --mode production",
     "exmaple": "webpack serve --config ./exmaple/webpack.exmaple.js",
-    "prepublish:showdemo":"yarn build && webpack serve --config ./exmaple/webpack.install.js",
+    "prepublish:showdemo": "yarn build && webpack serve --config ./exmaple/webpack.install.js",
     "pu": "yarn build && yarn publish",
     "sync:github": "git add -A && git commit && git push -u origin master"
   },
