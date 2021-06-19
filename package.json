@@ -1,0 +1,40 @@
+{
+  "name": "woneui",
+  "version": "1.0.0",
+  "description": "some ui components",
+  "main": "dist/.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "exmaple": "webpack serve --config ./exmaple/webpack.exmaple.js",
+    "prepublish:showdemo":"yarn build && webpack serve --config ./exmaple/webpack.install.js",
+    "pu": "yarn build && yarn publish",
+    "sync:github": "git add -A && git commit && git push -u origin master"
+  },
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "keywords": [
+    "ui",
+    "components"
+  ],
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.14.5",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^27.0.4",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^12.1.0",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "author": "wone",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
+}
