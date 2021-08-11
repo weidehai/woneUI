@@ -4,7 +4,7 @@
     <div class="exmaple-item">
       <woneButton @click="showDialog"></woneButton>
     </div>
-    <div class="exmaple-item"><slideAdjuster></slideAdjuster></div>
+    <div class="exmaple-item"><slide-adjuster></slide-adjuster></div>
     <div class="exmaple-item"><switcher></switcher></div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import {WoneUI} from '../src/index'
+import {WoneUI} from '../dist/woneUI'
 import index from './index.vue'
 
 Vue.use(WoneUI)

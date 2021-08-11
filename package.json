@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "webpack --mode production",
-    "exmaple": "webpack serve --config ./exmaple/webpack.exmaple.js",
-    "prepublish:showdemo": "yarn build && webpack serve --config ./exmaple/webpack.install.js",
+    "exmaple": "webpack serve --config ./exmaple/webpack.exmaple.js --open",
     "pu": "yarn build && yarn publish",
     "sync:github": "git add -A && git commit && git push -u origin master"
   },
